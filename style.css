@@ -1,0 +1,74 @@
+.content-wrapper {
+    width: 90%;
+} 
+
+header ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+header ul li {
+    margin: 0px 5px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: crimson;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+header ul li a:hover {
+    color: darkblue;
+}
+
+.hero {
+    margin: 0px 50px;
+background-image: url("img/frst-imge.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+max-width: 100%;
+height: 50vh;
+}
+
+.hero-about {
+    margin: 0px 50px;
+background-image: url("img/second-imge.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+max-width: 100%;
+height: 50vh;
+}
+
+.hero-products {
+    margin: 0px 50px;
+background-image: url("img/third-imge.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+max-width: 100%;
+height: 50vh;
+}
+
+.content {
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 70px 20vw 0px 20vw;
+}
+
+.title {
+    margin: 0px 45px;
+    color: purple;
+}
+
